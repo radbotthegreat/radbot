@@ -1,0 +1,10 @@
+
+cd $HOME/radbot
+./radbot.bash /full/path/to/foo.tar.xz
+
+When the above command is executed, there will be a directory (not a
+tarball) at /full/path/to/foo.tar.xz/ and underneath this directory,
+there will be contents of the tarball, that have been extracted.
+
+
+

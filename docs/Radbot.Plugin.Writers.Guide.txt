@@ -1,0 +1,14 @@
+So you want to extend radbot by writing your own plugin(s). Excellent!
+
+radbot does not and will not keep track of the activities of its
+plugins.
+
+The first thing to remember is that the plugin had to reside under
+$HOME/radbot/radbot-plugins/. This means that if your plugin is called
+fribitz, it will reside under $HOME/radbot/radbot-plugins/fribitz/
+
+The second thing to remember is that you will have to specify it in
+$HOME/plugins-list
+
+
+
